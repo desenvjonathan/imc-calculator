@@ -10,4 +10,20 @@
 
 body {
   background-color: #040924;
+  font-size: 1.6rem;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.card {
+  padding: 4.8rem 6.4rem 6.4rem;
+  background: #FFFFFF;
+  max-width: 42.8rem;
+  margin-inline: auto;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
 }
