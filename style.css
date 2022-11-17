@@ -39,6 +39,7 @@ body, input, button {
   height: 100vh;
   display: grid;
   place-content: center;
+  padding: 1.6rem;
 }
 
 .card {
@@ -56,9 +57,7 @@ body, input, button {
   color: var(--tt-heading);
 }
 
-.container {
-  padding: 1.6rem;
-}
+
 
 form h1 {
   margin-bottom: 3.2rem;
@@ -169,4 +168,13 @@ form button:hover {
   opacity: 0;
   transform: translateY(-30px);
   transition: transform 0.5s;
+}
+
+@media (min-width: 500px) {
+  .card {
+    padding: 4.8rem 6.4rem 6.4rem;
+}
+  form {
+    width: 30rem;
+  }
 }
