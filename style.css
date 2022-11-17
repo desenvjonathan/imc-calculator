@@ -6,9 +6,25 @@
 
 :root {
   font-size: 62.5%;
+
+  /*cores*/
+  --tt-heading: #0C3440; 
+
+  --tt-label: #00433A;
+  --tt-input: #212529;
+  --ot-input: #027990;//outline do input
+  --bd-input: rgba(73, 80, 87, 0.3); //border do input
+  --tt-placeholder: rgba(73, 80, 87, 0.5);
+  
+  --tt-button: #FFFFFF;
+  --bg-button: #02799D;
+
+  --bg-error: #F03E3E;
+  --tt-error: #FFFFFF;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   background-color: #040924;
   font-size: 1.6rem;
 }
