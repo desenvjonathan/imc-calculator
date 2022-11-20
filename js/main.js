@@ -1,5 +1,6 @@
 import { Modal } from './modal.js'; 
 import { AlertError } from './alert-error.js';
+import { notANumber, IMC } from './utils.js';
 //o nome da constante precisa ser exatamente igual
 
 // Variáveis - Variables
@@ -20,7 +21,7 @@ form.onsubmit = event => {
   }
 
   AlertError.close()
-  
+
   const result = IMC(weight, height)
   const message = `Seu IMC é de ${result}`
 
@@ -28,10 +29,3 @@ form.onsubmit = event => {
   Modal.open()
 }
 
-function notANumber(value) {
-  return isNaN(value) || value == "" // || = ou
-}
-
-function IMC (weight, height) {
-  return (weight / ((height / 100) **2)).toFixed(2)
-}
