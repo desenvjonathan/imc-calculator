@@ -1,4 +1,5 @@
 import { Modal } from './modal.js'; 
+import { AlertError } from './alert-error.js';
 //o nome da constante precisa ser exatamente igual
 
 // Variáveis - Variables
@@ -14,10 +15,12 @@ form.onsubmit = event => {
   const showAlertError =  notANumber(weight) || notANumber(height)
 
   if (showAlertError) {
-    console.log('Mostrar alerta de erro')
+    AlertError.open()
     return;
   }
 
+  AlertError.close()
+  
   const result = IMC(weight, height)
   const message = `Seu IMC é de ${result}`
 
