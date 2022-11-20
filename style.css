@@ -8,17 +8,17 @@
   font-size: 62.5%;
 
   /*cores*/
-  --tt-heading: #0C3440; 
+  --tt-heading: #400C0C; 
 
-  --tt-label: #00433A;
+  --tt-label: #430000;
   --tt-input: #212529;
-  --ot-input: #027990;/*outline do input*/
+  --ot-input: #650000;/*outline do input*/
   --bd-input: rgba(73, 80, 87, 0.3); /*border do input*/
   --bg-input: #DCE2E9;
   --tt-placeholder: rgba(73, 80, 87, 0.5);
 
   --tt-button: #FFFFFF;
-  --bg-button: #ff3434;
+  --bg-button: #FF3434;
   --bg-button-hover: #910000;
 
   --bg-error: #F03E3E;
