@@ -18,8 +18,8 @@
   --tt-placeholder: rgba(73, 80, 87, 0.5);
 
   --tt-button: #FFFFFF;
-  --bg-button: #02799D;
-  --bg-button-hover: #01475C;
+  --bg-button: #ff3434;
+  --bg-button-hover: #910000;
 
   --bg-error: #F03E3E;
   --tt-error: #FFFFFF;
@@ -27,7 +27,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #040924;
+  background-color: #272727;
 }
 
 body, input, button {
