@@ -8,6 +8,10 @@ const form = document.querySelector('form')
 const inputWeight = document.querySelector('#weight')
 const inputHeight = document.querySelector('#height')
 
+inputWeight.oninput = () => AlertError.close() 
+/*oninput é para executar sempre que estiver fazendo alguma alteração nele, 
+nesse caso, fechar o alert-error quando estiver fazendo uma alteração*/
+inputHeight.oninput = () => AlertError.close()
 form.onsubmit = event => {
   event.preventDefault()
 
